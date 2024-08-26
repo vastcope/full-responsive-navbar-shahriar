@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+
+        body {
+            background-image: url(./wp9355922-black-4k-aesthetic-wallpapers.jpg);
+            background-blend-mode: multiply;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+
+        }
+        @media(max-width:991px) {
+            .sidebar {
+                background-color: rgb(59, 67, 73, 0.15);
+                backdrop-filter: blur(10px);
+
+            }
+            
+        }
+    </style>
+</head>
+</head>
+<body class="vh100 overflow-hidden">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <div class="container">
+          <a class="navbar-brand fs-4" href="#">INS SHAHRIAR</a>
+          <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class=" sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header text-white border-bttom">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">INS SHAHRIAR</h5>
+              <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+              <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                <li class="nav-item mx-2">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link mx-2" href="#">About</a>
+                </li>
+                <li class="nav-item mx-2">
+                    <a class="nav-link mx-2" href="#">Services</a>
+                  </li>
+                  <li class="nav-item mx-2">
+                    <a class="nav-link mx-2" href="#">Contact</a>
+                  </li>
+               
+              </ul>
+              <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+                <a class="text-white" href="#">Login</a>
+                <a class="text-white text-decoration-none px-3 py-1 rounded-4" style="background-color: #f94ca4;" href="#">Sign Up</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <section class="w-100 vh-100 d-flex flex-column justify-content-center text-white align-items-center fs-1">
+            <h1 style="font-size: 1.5em;">Welcome Everybody</h1>
+            <h1 style="font-size: 1.5em;">Here we go... </h1>
+        </section>
+      </main>
+    
+</body>
+</html>
